@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Scrolling Text</string>
-    <string name="article_title">Lorem Ipsum</string>
+    <string name="article_title">Androidão team bio</string>
     <string name="article_subtitle">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</string>
     <string name="article_text">
         <b>Text generated from\:</b> www.lipsum.com/feed/html
@@ -42,4 +42,26 @@
 
     </string>
     <string name="add_comment">ADD COMMENT</string>
+    <string name="gabriel_name">Gabriel Fernandes de Oliveira</string>
+    <string name="gabriel_bio">
+        <b>Gabriel</b> is brazilian, 21 years old, studies Computer Science at the university
+    of São Paulo and is currently enrolled on a six-month mobility program at USI.
+        \n\n
+        Before enrolling on his bachelors in Computer Science, Gabriel unfortunately started studying
+        Computer Engineering in the same university. He transferred after the second year of
+        engineering.
+        \n\n
+        Some of Gabriel\'s hobbies are: watching Musical theater, Movies and participating in Programming
+        Competitions, such as ICPC.
+        \n\n
+        Gabriel does not play any musical instruments besides the flute, although sometimes he tries
+        to play the guitar.
+        \n\n
+        His favorite dish is Chicken Stroganoff (the brazilian one, with rice instead of pasta).
+        \n\n
+        Gabriel likes to listen to a lot of brazilian rock, rap, brazilian typical music, international
+        pop and even, <i>who would have thought</i>, musical theater soundtracks.
+        \n\n
+        Link to Gabriel\'s github: github.com/gafeol.
+    </string>
 </resources>
