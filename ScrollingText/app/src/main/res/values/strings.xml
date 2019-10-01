@@ -1,45 +1,31 @@
 <resources>
     <string name="app_name">Scrolling Text</string>
     <string name="article_title">Androidão</string>
-    <string name="article_subtitle">Gabriel Oliveira, Ivan Fontana, Pedro Almeida</string>
-    <string name="article_text">
-        <b>Text generated from\:</b> www.lipsum.com/feed/html
-        \n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed velporta nulla. Proin
-        imperdiet dolor metus. Nulla gravida odio at enim tincidunt, a ornareodio iaculis.
-        Quisque et turpis velit. Quisque quis faucibus odio. Pellentesque id ligula
-        vitae eros interdum ornare. Sed finibus facilisis risus. Etiam aliquam iaculis orci.
-        Pellentesque tincidunt tellus ac vehicula posuere. Maecenas et erat tristique, varius
-        ante nec, rhoncus tortor. Vestibulum nec nibh libero. Fusce eleifend eu nibh sit amet
-        pellentesque.
-        \n\n
-        <i>Nunc at lorem vehicula, scelerisque nisl a, eleifend risus. Suspendisse malesuada gravida
-        tellus quis viverra. Phasellus in ante vulputate, fringilla arcu eget, varius libero.
-        In vestibulum egestas sem. Nullam justo tortor, vestibulum in sagittis nec, iaculis
-        quis ante. Mauris feugiat elementum velit, vitae porta sapien consequat at. Aliquam in
-        semper dui. Praesent sed nibh vulputate, volutpat leo vitae, facilisis tellus.</i>
-        \n\n
-        Sed tortor orci, varius at mattis ut, laoreet cursus nunc. Donec efficitur ligula et
-        mi sodales, quis tincidunt quam dictum. Integer auctor, ligula ut semper accumsan, nibh
-        lorem sodales leo, ac rhoncus lacus ante a mauris. Integer iaculis tellus tellus, in
-        sodales est cursus eget. Mauris rutrum a purus congue ornare. Vivamus volutpat ligula
-        sollicitudin, volutpat enim quis, condimentum metus. Integer porta porta augue, at
-        interdum orci congue non. <b><i>Suspendisse in ornare augue.</i></b> Morbi elit dui, suscipit et
-        diam non, aliquet maximus odio. Etiam suscipit bibendum libero nec elementum.
-        Morbi mollis sollicitudin magna, ut rhoncus dui ullamcorper sed.
-        \n\n
-        Sed eget tortor tempus velit imperdiet sagittis ac sit amet tellus. Vivamus egestas et
-        dolor et blandit. Praesent interdum felis sem, nec mattis libero dictum nec. Donec vel
-        mauris quis nisl sagittis tempus vel a augue. Aenean et fringilla odio. Vivamus augue
-        sapien, suscipit ac orci at, finibus gravida tellus. Fusce arcu orci, iaculis vitae varius
-        non, cursus id orci. Vestibulum at finibus velit, ut venenatis ex.
-        \n\n
-        Maecenas eget laoreet eros, eu tempus mauris. Ut at tortor sed felis aliquam congue vel
-        venenatis ipsum. Ut tristique magna ac consectetur tempus. Nullam at pellentesque nulla,
-        ac luctus enim. Nam quis mauris mattis, viverra purus vitae, elementum arcu. Nullam eu
-        metus nibh. Morbi sodales nisl et congue fermentum. Ut sagittis a est eget luctus.
-        Pellentesque suscipit non tellus in luctus.
+    <string name="article_subtitle_pedro">Pedro Almeida</string>
+    <string name="article_text_pedro">
+        <b>Pedro Almeida</b> was born and raised in Cubatão, a small city in
+        São Paulo state. He moved to São Paulo (the state\'s capital)
+        when he was 19 to start his undergraduate studies at Universidade
+        de São Paulo - one of the most prestigious universities in the
+        whole Latin America. He is taking the Computer Science bachelor
+        program, with emphasis in Artificial Inteligence and e-Science,
+        currently he is abroad as an exchange student at Universita della
+        Svizzera Italiana.
 
+        The things that fascinates Pedro are those that are paradigm-
+        breaking, ground-breaking, useful and that adds some sort of
+        content to his person. He\'s very passionate about art, music,
+        linguistics, literature and technoloy. His favorite hobbies are
+        learning new languages, listenning to new music and feeling them
+        as an experience. He also enjoys building new things - and he feels
+        very fulfilled making things that would help people.
+
+        One of his dreams are to cross the whole Americas (south, center
+        and north) by car. And other aim of him is to build something that
+        would transform the world in somewhere less unequal.
+
+        Finally, he is very happy and proud to be in Lugano and he hopes
+        that that experience helps him achieve his main objectives in life.
     </string>
     <string name="add_comment">ADD COMMENT</string>
 </resources>
