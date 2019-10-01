@@ -1,0 +1,14 @@
+ScrollingText/*.iml
+ScrollingText/.gradle
+ScrollingText/local.properties
+ScrollingText/.idea/caches
+ScrollingText/.idea/libraries
+ScrollingText/.idea/modules.xml
+ScrollingText/.idea/workspace.xml
+ScrollingText/.idea/navEditor.xml
+ScrollingText/.idea/assetWizardSettings.xml
+ScrollingText/.DS_Store
+ScrollingText/build
+ScrollingText/captures
+ScrollingText/.externalNativeBuild
+ScrollingText/.cxx
