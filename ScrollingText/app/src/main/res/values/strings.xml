@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Scrolling Text</string>
-    <string name="article_title">Lorem Ipsum</string>
-    <string name="article_subtitle">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</string>
+    <string name="article_title">Androidão</string>
+    <string name="article_subtitle">Gabriel Oliveira, Ivan Fontana, Pedro Almeida</string>
     <string name="article_text">
         <b>Text generated from\:</b> www.lipsum.com/feed/html
         \n\n
