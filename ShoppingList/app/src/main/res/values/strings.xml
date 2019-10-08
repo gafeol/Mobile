@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="empty_slot_text">Empty Slot</string>
+    <string name="add_item_text">Add Item</string>
+</resources>
