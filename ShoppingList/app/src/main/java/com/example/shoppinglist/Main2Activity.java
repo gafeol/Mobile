@@ -12,8 +12,6 @@ public class Main2Activity extends AppCompatActivity {
     public static final String REPLY = "com.example.android.shoppinglist.extra.REPLY";
 
     private Button mButton;
-    //private String mButtonText;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +26,7 @@ public class Main2Activity extends AppCompatActivity {
         Intent returnIntent = new Intent();
         returnIntent.putExtra(REPLY, mButtonText);
         setResult(RESULT_OK, returnIntent);
+        //mButton.setVisibility(View.INVISIBLE);
         finish();
 
     }
