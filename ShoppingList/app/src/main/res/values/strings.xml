@@ -2,4 +2,14 @@
     <string name="app_name">Shopping List</string>
     <string name="empty_slot_text">Empty Slot</string>
     <string name="add_item_text">Add Item</string>
+    <string name="button1_text">Carrot</string>
+    <string name="button2_text">Tomato</string>
+    <string name="button3_text">Potato</string>
+    <string name="button4_text">Chicken</string>
+    <string name="button5_text">Truffle</string>
+    <string name="button6_text">Bread</string>
+    <string name="button7_text">Sugar</string>
+    <string name="button8_text">BBQ Sauce</string>
+    <string name="button9_text">Pickles</string>
+    <string name="button10_text">Flour</string>
 </resources>
