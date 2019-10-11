@@ -100,7 +100,7 @@
             android:background="#2196F3"
             android:onClick="launchSecondActivity"
             android:text="@string/add_item_text"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white" />
 
 
 </LinearLayout>

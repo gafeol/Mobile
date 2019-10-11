@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Main2Activity extends AppCompatActivity {
+public class ItemsMenu extends AppCompatActivity {
 
     public static final String REPLY = "com.example.android.shoppinglist.extra.REPLY";
 
@@ -16,7 +16,7 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.items_menu);
         mButton = findViewById(R.id.button1);
     }
 

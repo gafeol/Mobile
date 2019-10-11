@@ -6,7 +6,9 @@ import android.content.Intent;
 //import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,16 +30,6 @@ public class MainActivity extends AppCompatActivity {
             outState.putString(key, mReturnedItems[i].getText().toString());
         }
 
-//        outState.putString("text0", mReturnedItems[0].getText().toString());
-//        outState.putString("text1", mReturnedItems[1].getText().toString());
-//        outState.putString("text2", mReturnedItems[2].getText().toString());
-//        outState.putString("text3", mReturnedItems[3].getText().toString());
-//        outState.putString("text4", mReturnedItems[4].getText().toString());
-//        outState.putString("text5", mReturnedItems[5].getText().toString());
-//        outState.putString("text6", mReturnedItems[6].getText().toString());
-//        outState.putString("text7", mReturnedItems[7].getText().toString());
-//        outState.putString("text8", mReturnedItems[8].getText().toString());
-//        outState.putString("text9", mReturnedItems[9].getText().toString());
     }
 
     @Override
@@ -65,25 +57,18 @@ public class MainActivity extends AppCompatActivity {
                 key = "text" + i;
                 mReturnedItems[i].setText(savedInstanceState.getString(key));
             }
-
-//            mReturnedItems[0].setText(savedInstanceState.getString("text0"));
-//            mReturnedItems[1].setText(savedInstanceState.getString("text1"));
-//            mReturnedItems[2].setText(savedInstanceState.getString("text2"));
-//            mReturnedItems[3].setText(savedInstanceState.getString("text3"));
-//            mReturnedItems[4].setText(savedInstanceState.getString("text4"));
-//            mReturnedItems[5].setText(savedInstanceState.getString("text5"));
-//            mReturnedItems[6].setText(savedInstanceState.getString("text6"));
-//            mReturnedItems[7].setText(savedInstanceState.getString("text7"));
-//            mReturnedItems[8].setText(savedInstanceState.getString("text8"));
-//            mReturnedItems[9].setText(savedInstanceState.getString("text9"));
-
         }
     }
 
 
     public void launchSecondActivity(View view) {
-        Intent intent = new Intent(this, Main2Activity.class);
-        startActivityForResult(intent, TEXT_REQUEST);
+        if(textViewCount == 10){
+            Toast.makeText(this, "You've reached the maximum amount of elements!", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Intent intent = new Intent(this, ItemsMenu.class);
+            startActivityForResult(intent, TEXT_REQUEST);
+        }
     }
 
     @Override
@@ -93,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == TEXT_REQUEST) {
             if (resultCode == RESULT_OK) {
                 String reply =
-                        data.getStringExtra(Main2Activity.REPLY);
+                        data.getStringExtra(ItemsMenu.REPLY);
                 mReturnedItems[textViewCount].setText(reply);
                 //mReturnedItems[textViewCount].setTypeface(mReturnedItems[textViewCount].getTypeface(), Typeface.BOLD);
                 textViewCount++;
