@@ -13,4 +13,10 @@
     <string name="menu_smartphone">Smartphones</string>
     <string name="menu_computer">Computers and Laptops</string>
     <string name="menu_games">Board games</string>
+    <string name="menu_soccer">Soccer</string>
+    <string name="menu_basketball">Basketball</string>
+    <string name="menu_tennis">Tennis</string>
+    <string name="entertainment_category">Entertainment</string>
+    <string name="sports_category">Sports</string>
+    <string name="eletronics_category">Eletronics</string>
 </resources>

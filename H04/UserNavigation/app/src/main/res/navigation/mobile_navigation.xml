@@ -35,4 +35,22 @@
         android:label="@string/menu_smartphone"
         tools:layout="@layout/fragment_smartphone" />
 
+    <fragment
+        android:id="@+id/nav_soccer"
+        android:name="com.example.usernavigation.ui.soccer.SoccerFragment"
+        android:label="@string/menu_soccer"
+        tools:layout="@layout/fragment_soccer" />
+
+    <fragment
+        android:id="@+id/nav_basketball"
+        android:name="com.example.usernavigation.ui.basketball.BasketballFragment"
+        android:label="@string/menu_basketball"
+        tools:layout="@layout/fragment_basketball" />
+
+    <fragment
+        android:id="@+id/nav_tennis"
+        android:name="com.example.usernavigation.ui.tennis.TennisFragment"
+        android:label="@string/menu_tennis"
+        tools:layout="@layout/fragment_tennis" />
+
 </navigation>

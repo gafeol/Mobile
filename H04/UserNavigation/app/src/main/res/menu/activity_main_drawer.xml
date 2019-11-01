@@ -6,19 +6,41 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_home"
             android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_games"
-            android:icon="@drawable/ic_puzzle"
-            android:title="@string/menu_games" />
-        <item
-            android:id="@+id/nav_book"
-            android:icon="@drawable/ic_book"
-            android:title="@string/menu_book" />
     </group>
 
-    <item android:title="Eletronics">
+    <item android:title="@string/entertainment_category">
+        <menu>
+            <item
+                android:id="@+id/nav_games"
+                android:icon="@drawable/ic_puzzle"
+                android:title="@string/menu_games" />
+            <item
+                android:id="@+id/nav_book"
+                android:icon="@drawable/ic_book"
+                android:title="@string/menu_book" />
+        </menu>
+    </item>
+
+    <item android:title="@string/sports_category">
+        <menu>
+            <item
+                android:id="@+id/nav_soccer"
+                android:icon="@drawable/ic_soccer"
+                android:title="@string/menu_soccer" />
+            <item
+                android:id="@+id/nav_basketball"
+                android:icon="@drawable/ic_basketball"
+                android:title="@string/menu_basketball" />
+            <item
+                android:id="@+id/nav_tennis"
+                android:icon="@drawable/ic_tennis"
+                android:title="@string/menu_tennis" />
+        </menu>
+    </item>
+
+    <item android:title="@string/eletronics_category">
         <menu>
             <item
                 android:id="@+id/nav_computer"
