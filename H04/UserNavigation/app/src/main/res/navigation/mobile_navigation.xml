@@ -6,10 +6,34 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_games"
+        android:name="com.example.usernavigation.ui.game.GameFragment"
+        android:label="@string/menu_games"
+        tools:layout="@layout/fragment_game" />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.usernavigation.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_book"
+        android:name="com.example.usernavigation.ui.book.BookFragment"
+        android:label="@string/menu_book"
+        tools:layout="@layout/fragment_book" />
+
+    <fragment
+        android:id="@+id/nav_computer"
+        android:name="com.example.usernavigation.ui.computer.ComputerFragment"
+        android:label="@string/menu_computer"
+        tools:layout="@layout/fragment_computer" />
+
+    <fragment
+        android:id="@+id/nav_smartphone"
+        android:name="com.example.usernavigation.ui.smartphone.SmartphoneFragment"
+        android:label="@string/menu_smartphone"
+        tools:layout="@layout/fragment_smartphone" />
 
     <fragment
         android:id="@+id/nav_gallery"

@@ -37,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        fabSetup();
+        navSetup();
+    }
+
+    private void fabSetup(){
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,11 +49,16 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
+
         });
+    }
+
+    private void navSetup(){
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         final NavigationView navigationView = findViewById(R.id.nav_view);
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,
+                R.id.nav_home, R.id.nav_book, R.id.nav_computer, R.id.nav_smartphone,
+                R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_games,
                 R.id.nav_tools, R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();
@@ -58,12 +68,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDestinationChanged(@NonNull NavController controller, @NonNull NavDestination destination, @Nullable Bundle arguments) {
                 if(thisFragment != controller.getCurrentDestination().getId()){
-                    Toast.makeText(MainActivity.this, "Clicked " + controller.getCurrentDestination().getLabel().toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Changed to " +
+                            controller.getCurrentDestination().getLabel().toString() +
+                            " fragment!", Toast.LENGTH_SHORT).show();
                     thisFragment = controller.getCurrentDestination().getId();
                 }
             }
         });
-
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
     }

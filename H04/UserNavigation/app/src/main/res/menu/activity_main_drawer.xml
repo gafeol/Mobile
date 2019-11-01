@@ -9,6 +9,14 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_games"
+            android:icon="@drawable/ic_puzzle"
+            android:title="@string/menu_games" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_book" />
+        <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menu_gallery" />
@@ -21,6 +29,19 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/menu_tools" />
     </group>
+
+    <item android:title="Eletronics">
+        <menu>
+            <item
+                android:id="@+id/nav_computer"
+                android:icon="@drawable/ic_notebook"
+                android:title="@string/menu_computer" />
+            <item
+                android:id="@+id/nav_smartphone"
+                android:icon="@drawable/ic_smartphone"
+                android:title="@string/menu_smartphone" />
+        </menu>
+    </item>
 
     <item android:title="Communicate">
         <menu>

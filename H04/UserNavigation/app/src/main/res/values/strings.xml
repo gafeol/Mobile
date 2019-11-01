@@ -13,4 +13,9 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="menu_book">Books</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_smartphone">Smartphones</string>
+    <string name="menu_computer">Computers and Laptops</string>
+    <string name="menu_games">Board games</string>
 </resources>
