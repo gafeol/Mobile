@@ -19,4 +19,10 @@
     <string name="entertainment_category">Entertainment</string>
     <string name="sports_category">Sports</string>
     <string name="eletronics_category">Eletronics</string>
+    <string name="soccer_shoes_desc">Shoes for playing soccer.</string>
+    <string name="soccer_uniform_desc">Uniform from Lugano\'s soccer team.</string>
+    <string name="basketball_uniform_desc">Basketball uniform from Lugano\'s basketball team.</string>
+    <string name="basketball_ball_desc">Regular basketball ball. Does not come inflated.</string>
+    <string name="game_puzzle_desc">500-piece puzzle representing the beautiful lake Lugano.</string>
+    <string name="game_lego_desc">An overpriced set of lego bricks.</string>
 </resources>
