@@ -1,9 +1,7 @@
 <resources>
-    <string name="app_name">User Navigation</string>
+    <string name="app_name">Androidao Shopping</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -25,4 +23,16 @@
     <string name="basketball_ball_desc">Regular basketball ball. Does not come inflated.</string>
     <string name="game_puzzle_desc">500-piece puzzle representing the beautiful lake Lugano.</string>
     <string name="game_lego_desc">An overpriced set of lego bricks.</string>
+    <string name="computer_mouse_desc">Revolutionary mouse for your desktop computer.</string>
+    <string name="computer_monitor_desc">21-inches monitor for PCs and notebooks</string>
+    <string name="smartphone_moto_desc">Motorola Y3 phone on sale. Buy one and get 10% off on earphones.</string>
+    <string name="tennis_ball_desc">Tennis ball sale for 3 balls packages.</string>
+    <string name="tennis_racket_desc">Two wilson tennnis rackets. Does not include ball.</string>
+    <string name="book_dictionary_desc">English-Italian dictionary.</string>
+    <string name="book_books_desc">The hunger games trilogy.</string>
+    <string name="guest_user">Guest user</string>
+    <string name="guest_user_message">Login to create your shopping cart</string>
+    <string name="black_november">BLACK NOVEMBER</string>
+    <string name="coupons">Coupons up to 30% off just for you!</string>
+    <string name="fusca_promo">Spending more than CHF 300 in Androidão Shopping you even have the chance to win a red Fusca!</string>
 </resources>
