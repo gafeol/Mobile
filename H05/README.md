@@ -1,6 +1,6 @@
 Homework 5  - AsyncTask and AsyncTaskLoader
 
-Androidão Team:
+Androidão Team: <br>
 Gabriel Fernandes de Oliveira  </br>
 Ivan Fontana  </br>
 Pedro Henrique Barbosa de Almeida  </br>
